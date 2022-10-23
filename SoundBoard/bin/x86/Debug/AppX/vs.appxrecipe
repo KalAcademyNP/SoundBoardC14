@@ -30,13 +30,13 @@
     <AppXManifest Include="G:\Github\SWC14\SoundBoard\SoundBoard\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-16T18:45:53.362</Modified>
+      <Modified>2022-10-23T19:23:03.747</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\bin\x86\Debug\SoundBoard.exe">
       <PackagePath>entrypoint\SoundBoard.exe</PackagePath>
-      <Modified>2022-10-16T18:45:50.636</Modified>
+      <Modified>2022-10-23T19:23:03.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,9 +46,85 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T11:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-10-15T18:42:32.762</Modified>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Animals\Cat.wav">
+      <PackagePath>Assets\Audio\Animals\Cat.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Animals\Cow.wav">
+      <PackagePath>Assets\Audio\Animals\Cow.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Cartoons\Gun.wav">
+      <PackagePath>Assets\Audio\Cartoons\Gun.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Cartoons\Spring.wav">
+      <PackagePath>Assets\Audio\Cartoons\Spring.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Taunts\Clock.wav">
+      <PackagePath>Assets\Audio\Taunts\Clock.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Taunts\LOL.wav">
+      <PackagePath>Assets\Audio\Taunts\LOL.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Warnings\Ship.wav">
+      <PackagePath>Assets\Audio\Warnings\Ship.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Audio\Warnings\Siren.wav">
+      <PackagePath>Assets\Audio\Warnings\Siren.wav</PackagePath>
+      <Modified>2022-10-16T19:09:44.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Icons\animals.png">
+      <PackagePath>Assets\Icons\animals.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Icons\cartoon.png">
+      <PackagePath>Assets\Icons\cartoon.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Icons\taunt.png">
+      <PackagePath>Assets\Icons\taunt.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Icons\warning.png">
+      <PackagePath>Assets\Icons\warning.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Animals\Cat.png">
+      <PackagePath>Assets\Images\Animals\Cat.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Animals\Cow.png">
+      <PackagePath>Assets\Images\Animals\Cow.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Cartoons\Gun.png">
+      <PackagePath>Assets\Images\Cartoons\Gun.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Cartoons\Spring.png">
+      <PackagePath>Assets\Images\Cartoons\Spring.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Taunts\Clock.png">
+      <PackagePath>Assets\Images\Taunts\Clock.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Taunts\LOL.png">
+      <PackagePath>Assets\Images\Taunts\LOL.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Warnings\Ship.png">
+      <PackagePath>Assets\Images\Warnings\Ship.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\Images\Warnings\Siren.png">
+      <PackagePath>Assets\Images\Warnings\Siren.png</PackagePath>
+      <Modified>2022-10-16T19:09:44.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -84,17 +160,21 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-04-03T01:13:32.545</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-10-15T18:42:32.762</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\bin\x86\Debug\SoundBoard.xr.xml">
       <PackagePath>SoundBoard.xr.xml</PackagePath>
-      <Modified>2022-10-16T18:45:50.476</Modified>
+      <Modified>2022-10-23T19:23:02.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-10-16T18:45:50.510</Modified>
+      <Modified>2022-10-23T19:23:02.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-10-16T18:45:50.511</Modified>
+      <Modified>2022-10-23T19:23:02.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +182,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-16T18:45:51.460</Modified>
+      <Modified>2022-10-23T19:07:40.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Github\SWC14\SoundBoard\SoundBoard\bin\x86\Debug\Core\SoundBoard.exe">
       <PackagePath>SoundBoard.exe</PackagePath>
-      <Modified>2022-10-16T18:45:53.347</Modified>
+      <Modified>2022-10-23T19:23:03.742</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

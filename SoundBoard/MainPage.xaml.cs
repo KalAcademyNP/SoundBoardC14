@@ -1,5 +1,7 @@
-﻿using System;
+﻿using SoundBoard.Model;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,9 +24,12 @@ namespace SoundBoard
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private ObservableCollection<Sound> sounds;
         public MainPage()
         {
             this.InitializeComponent();
+            sounds = new ObservableCollection<Sound>();
+            SoundManager.GetAllSounds(sounds);
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
@@ -35,6 +40,12 @@ namespace SoundBoard
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void SoundGridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var sound = (Sound)e.ClickedItem;
+            SoundMedia.Source = new Uri(this.BaseUri, sound.AudioFile);
         }
     }
 }
