@@ -17,14 +17,14 @@
 
         
         <RelativePanel Grid.Row="0">
-            <Button x:ConnectionId='8' Name="HamburgerButton"
+            <Button x:ConnectionId='13' Name="HamburgerButton"
                                                  
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE700;"
                     Height="45"
                     Width="45"
                     />
-            <Button x:ConnectionId='9' Name="BackButton"
+            <Button x:ConnectionId='14' Name="BackButton"
                                             
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
@@ -39,31 +39,42 @@
                    OpenPaneLength="200"
                    >
             <SplitView.Pane>
-                <ListView>
+                <ListView x:ConnectionId='3' Name="MenuItemsListView"
+                          IsItemClickEnabled="True"
+                                                          
+                                                                 >
+                    <ListView.ItemTemplate>
+                        <DataTemplate                           >
+                            <StackPanel x:ConnectionId='5' Orientation="Horizontal" Margin="0,10,0,0">
+                                <Image x:ConnectionId='6'                            Height="45" Width="45" Margin="-10,0,0,0" />
+                                <TextBlock x:ConnectionId='7'                          FontSize="18" Margin="10,10,0,0" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
                     
                 </ListView>
             </SplitView.Pane>
             <SplitView.Content>
-                <Grid>
+                <Grid Margin="20,0,0,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <TextBlock x:ConnectionId='3' Grid.Row="0" Name="CategoryTextBlock" 
+                    <TextBlock x:ConnectionId='8' Grid.Row="0" Name="CategoryTextBlock" 
                                Text="All Sounds" FontSize="24" />
-                    <GridView x:ConnectionId='4' Grid.Row="1" 
+                    <GridView x:ConnectionId='9' Grid.Row="1" 
                               Name="SoundGridView"
                               IsItemClickEnabled="True"
                                                            
                                                                  >
                         <GridView.ItemTemplate>
                             <DataTemplate                        >
-                                <Image x:ConnectionId='7' Height="112" Width="101"                             />
+                                <Image x:ConnectionId='12' Height="112" Width="101"                             />
                             </DataTemplate>
                         </GridView.ItemTemplate>
                         
                     </GridView>
-                    <MediaElement x:ConnectionId='5' Name="SoundMedia" AutoPlay="True" />
+                    <MediaElement x:ConnectionId='10' Name="SoundMedia" AutoPlay="True" />
                 </Grid>
             </SplitView.Content>
             
